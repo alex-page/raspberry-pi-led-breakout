@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "",
-    "test": ""
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
     "pimoroni"
   ],
   "author": "Alex Page <alex@alexpage.com.au>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "xo": "^0.28.0"
+  }
 }
