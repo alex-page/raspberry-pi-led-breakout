@@ -1,0 +1,23 @@
+{
+  "name": "raspberry-pi-led-breakout",
+  "version": "0.0.0",
+  "description": "Control Raspberry Pi LED breakout's with Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-page/raspberry-pi-led-breakout.git"
+  },
+  "keywords": [
+    "nodejs",
+    "breakout",
+    "led",
+    "raspberrypi",
+    "pimoroni"
+  ],
+  "author": "Alex Page <alex@alexpage.com.au>",
+  "license": "MIT"
+}
