@@ -11,7 +11,7 @@
 - [microHDMI to HDMI cable](https://www.raspberrypi.org/products/micro-hdmi-to-standard-hdmi-a-cable/)
 - An [LED breakout](https://shop.pimoroni.com/collections/electronics?filter=LED+Displays) connected to the raspberry pi
 
-> **Note:** This guide was wrote for a Raspberry Pi 3 A+. Raspberry Pi Zero W will have issues installing the latest version of node and using visual studio code remotely.
+> **Note:** This guide was wrote for a Raspberry Pi 3 A+. Raspberry Pi Zero W and older versions will have issues installing the latest version of node and using visual studio code remotely.
 
 
 ## Get started
