@@ -11,6 +11,8 @@
 - [microHDMI to HDMI cable](https://www.raspberrypi.org/products/micro-hdmi-to-standard-hdmi-a-cable/)
 - An [LED breakout](https://shop.pimoroni.com/collections/electronics?filter=LED+Displays) connected to the raspberry pi
 
+> **Note:** This guide was wrote for a Raspberry Pi 3 A+. Raspberry Pi Zero W will have issues installing the latest version of node and using visual studio code remotely.
+
 
 ## Get started
 
@@ -21,6 +23,7 @@
 1. If you have ethernet cable, keyboard and monitor, plug them into your raspberry pi and skip to step 5. If you do not you can set up the [raspberry pi headless](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md).
 1. SSH into the raspberry PI `ssh pi@raspberrypi.local` (password: `raspberry`)
 1. Run `sudo raspi-config` to finish setting up your Raspberry Pi
+1. Choose `5 Interfacing Options` select `P5 I2C` and enable ARM I2C interface
 
 
 ### Instal Node JS
