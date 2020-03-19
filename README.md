@@ -47,7 +47,7 @@
 ### Control LED's with Javascript
 
 1. Install this package `npm install raspberry-pi-led-breakout`
-1. 
+1. Get the address on the LED Module it should have it printed on it `I2C 0x75 or 0x77`
 
 
 ## Release history
