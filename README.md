@@ -46,8 +46,9 @@
 
 ### Control LED's with Javascript
 
+1. Install i2c-tools `sudo apt-get install i2c-tools`
+1. Get the address on the LED Module by running `i2cdetect -y 1` and compare the found addresses with the numbers on the LED Hardware. For example it should be `0x75` or `0x77`.
 1. Install this package `npm install raspberry-pi-led-breakout`
-1. Get the address on the LED Module it should have it printed on it `I2C 0x75 or 0x77`
 
 
 ## Release history
