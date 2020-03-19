@@ -2,9 +2,8 @@
 
 > 💡 Control Raspberry Pi [LED breakout](https://shop.pimoroni.com/collections/electronics?filter=LED+Displays)'s with Node JS
 
-## Getting started
 
-You will need:
+## You will need
 
 - [A raspberry pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 - [Power supply](https://www.raspberrypi.org/products/type-c-power-supply/)
@@ -13,7 +12,9 @@ You will need:
 - An [LED breakout](https://shop.pimoroni.com/collections/electronics?filter=LED+Displays) connected to the raspberry pi
 
 
-### Setting up the Raspberry Pi
+## Get started
+
+### Set up the Raspberry Pi
 
 1. Download [raspbian lite](https://www.raspberrypi.org/downloads/raspbian/)
 1. Install the operating system by flashing the microSD card with the `.img` file. You can use [etcher](https://github.com/balena-io/etcher).
@@ -22,7 +23,7 @@ You will need:
 1. Run `sudo raspi-config` to finish setting up your Raspberry Pi
 
 
-### Installing Node JS
+### Instal Node JS
 
 1. Update and upgrade the installed packages `sudo apt-get update && sudo apt-get upgrade`
 1. Install NVM to your Raspberry Pi `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
@@ -41,7 +42,7 @@ You will need:
 1. Enter the password in `raspberry`
 
 
-### Controlling the LED's with Javascript
+### Control LED's with Javascript
 
 1. Install this package `npm install raspberry-pi-led-breakout`
 1. 
