@@ -28,7 +28,7 @@
 ### Instal Node JS
 
 1. Update and upgrade the installed packages `sudo apt-get update && sudo apt-get upgrade`
-1. Install NVM to your Raspberry Pi `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
+1. Install NVM to your Raspberry Pi `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/main/install.sh | bash`
 1. Restart `sudo reboot`
 1. Reconnect with SSH `ssh pi@raspberrypi.local`
 1. Check NVM is installed and working `nvm --version`
