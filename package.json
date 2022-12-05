@@ -21,6 +21,6 @@
   "author": "Alex Page <alex@alexpage.com.au>",
   "license": "MIT",
   "devDependencies": {
-    "xo": "^0.28.0"
+    "xo": "^0.53.1"
   }
 }
